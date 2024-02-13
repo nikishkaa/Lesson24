@@ -20,8 +20,6 @@ public class MatrixWorker {
         for (int i = 1; i < matrix.length - 1; i++) {
             sum += matrix[i][matrix[0].length - 1];
         }
-
-
         return sum;
     }
 }
