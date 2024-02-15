@@ -5,6 +5,7 @@ public class MatrixWorker {
 
         int sum = 0;
 
+
         for (int element : matrix[0]) {
             sum += element;
         }
@@ -20,6 +21,8 @@ public class MatrixWorker {
         for (int i = 1; i < matrix.length - 1; i++) {
             sum += matrix[i][matrix[0].length - 1];
         }
+
+
         return sum;
     }
 }
