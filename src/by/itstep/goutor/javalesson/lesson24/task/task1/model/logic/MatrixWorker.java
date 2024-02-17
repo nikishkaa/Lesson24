@@ -6,6 +6,7 @@ public class MatrixWorker {
         int sum = 0;
 
 
+
         for (int element : matrix[0]) {
             sum += element;
         }
